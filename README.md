@@ -61,7 +61,7 @@ Minimum price configured in Application.properties is $20.00.
 * Junit
 * Mockito
 
-## Running item locally
+## Running project locally
 
 **Step 1**: Compile the project from root folder
 ```
@@ -78,7 +78,7 @@ Use Maven to get the WAR file:
 ```
 mvn clean install
 ```
-The WAR file will be located in `item/target`
+The WAR file will be located in `target` folder
 
 ### Application properties
 * Application.properties - contains property for minimum price and properties to connect to h2 dn and h2 console.
