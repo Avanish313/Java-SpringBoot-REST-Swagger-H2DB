@@ -63,11 +63,11 @@ Minimum price configured in Application.properties is $20.00.
 
 ## Running item locally
 
-**Step 1**: Compile the project from item
+**Step 1**: Compile the project from root folder
 ```
 mvn clean install
 ```
-**Step 2**: Use maven spring-boot command to run the application:
+**Step 2**: Use maven spring-boot command to run the application from root folder:
 ```
 mvn spring-boot:run
 ```
